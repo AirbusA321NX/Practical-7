@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="P3.xsd">
+    <orderId>12345</orderId>
+    <description>Book order for science and fiction enthusiasts</description>
+    <requestDate>2024-11-08</requestDate>
+    <lineItems>
+        <lineItem>
+            <book>
+                <bookId>001</bookId>
+                <bookName>The Science of Tomorrow</bookName>
+                <genre>science-fiction</genre>
+                <publishDate>2022-05-15</publishDate>
+                <authors>
+                    <author>
+                        <firstName>Isaac</firstName>
+                        <lastName>Newton</lastName>
+                        <bio>Renowned physicist and mathematician.</bio>
+                        <penName>Science Sage</penName>
+                    </author>
+                </authors>
+            </book>
+            <quantity>2</quantity>
+            <price>19.99</price>
+        </lineItem>
+    </lineItems>
+</order>
